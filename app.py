@@ -3,12 +3,12 @@ import pandas as pd
 import json
 import os
 from datetime import datetime
-
+import plotly.express as px
 
 # --- UVOZ TRANSFORMERS & WORDCLOUD (ZA BONUS) ---
 from transformers import pipeline
 from wordcloud import WordCloud
-import matplotlib.pyplot as plt
+
 
 # ==========================================
 # PAGE CONFIGURATION
@@ -253,5 +253,5 @@ elif page == "⭐ Reviews":
                 }
             )
         else:
-
             st.warning(f"Ni mnenj za {selected_month}.")
+
