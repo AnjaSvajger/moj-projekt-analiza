@@ -1,7 +1,8 @@
 streamlit
 pandas
-selenium
-webdriver-manager
+plotly
 transformers
 torch
+wordcloud
 matplotlib
+
